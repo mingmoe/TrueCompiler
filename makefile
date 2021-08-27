@@ -1,7 +1,7 @@
 install:
-	@ln -s /usr/bin/gcc /usr/bin/Ming\'sCC
-	@ln -s /usr/bin/g++ /usr/bin/Ming\'sCXX
-	@ln -s /usr/bin/make /usr/bin/MingMake
+	@ln -s $(GCC_CC) /usr/bin/Ming\'sCC
+	@ln -s $(GCC_CXX) /usr/bin/Ming\'sCXX
+	@ln -s $(GNU_MAKE) /usr/bin/MingMake
 	
 	@echo "INSTALL DONE"
 
